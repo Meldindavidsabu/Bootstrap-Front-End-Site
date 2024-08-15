@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Reviews Carousel</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Custom CSS -->
+    <style>
+        .carousel-item {
+            text-align: center;
+            padding: 30px;
+        }
+        .carousel-item img {
+            max-width: 100px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+        .single-review {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        .star .fa {
+            color: #ffdd00;
+        }
+    </style>
+</head>
+<body>
+    <!-- Start reviews Area -->
+    <section class="reviews-area section-gap">
+        <div class="container">
+            <div class="row section-title">
+                <h1>Client’s Reviews</h1>
+                <p>Who are in extremely love with eco friendly system.</p>
+            </div>
+            <div id="reviewsCarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="single-review">
+                            <img src="img/reviewer1.jpg" alt="Reviewer Image">
+                            <h4>Cody Hines</h4>
+                            <p>Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.</p>
+                            <div class="star">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="single-review">
+                            <img src="img/reviewer2.jpg" alt="Reviewer Image">
+                            <h4>Chad Herrera</h4>
+                            <p>Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.</p>
+                            <div class="star">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="single-review">
+                            <img src="img/reviewer3.jpg" alt="Reviewer Image">
+                            <h4>Andre Gonzalez</h4>
+                            <p>Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.</p>
+                            <div class="star">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="single-review">
+                            <img src="img/reviewer4.jpg" alt="Reviewer Image">
+                            <h4>Jon Banks</h4>
+                            <p>Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.</p>
+                            <div class="star">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="single-review">
+                            <img src="img/reviewer5.jpg" alt="Reviewer Image">
+                            <h4>Landon Houston</h4>
+                            <p>Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.</p>
+                            <div class="star">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="single-review">
+                            <img src="img/reviewer6.jpg" alt="Reviewer Image">
+                            <h4>Nelle Wade</h4>
+                            <p>Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.</p>
+                            <div class="star">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#reviewsCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#reviewsCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- End reviews Area -->
+
+    <!-- Include Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
+
